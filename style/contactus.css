@@ -80,7 +80,7 @@ header #checky{
 .error{
     color:red;
     font-weight:500;
-    display:none;
+    /* display:none; */
 }
 /* .header{
     background-color:#d9d9d9;

@@ -119,7 +119,7 @@ function validateItemsDept(){
     else{
         document.getElementById("errDeptNum").style.display="none";
     }
-    return false;
+    return true;
 }
 
 function validateItemsLocation(){
@@ -140,11 +140,33 @@ function validateItemsComplaint(){
     var message2= document.getElementById("txtArea").value;
 
     if(message2==""){
-        document.getElementById("errComplain").style.display="initial";
+        document.getElementById("errComplain").innerHTML="This is a required field";
         return false;
     }
     else{
         document.getElementById("errComplain").style.display="none";
     }
     return true;
+}
+
+function function2(){
+    var checktest=document.getElementById("errName").style.display;
+    var checktest2=document.getElementById("errNameNum").style.display;
+    var checktest3=document.getElementById("errNameSym").style.display;
+    var checktest4=document.getElementById("errEmail").style.display;
+    var checktest5=document.getElementById("errEmailFor").style.display;
+    var checktest6=document.getElementById("errDept").style.display;
+    var checktest7=document.getElementById("errDeptNum").style.display;
+    var checktest8=document.getElementById("errLocation").style.display;
+    var checktest9=document.getElementById("errComplain").style.display;
+
+    if(checktest=="none" && checktest2=="none" && checktest3=="none" && checktest4=="none" && checktest5=="none"&&
+    checktest6=="none" && checktest7=="none" && checktest8=="none" && checktest9=="none"){
+        return false;
+    }
+    else{
+        sendMail();
+        alert("Your complaint has been successfully logged");
+        return false;
+    }
 }
