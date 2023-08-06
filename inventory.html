@@ -1,59 +1,64 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Inventory Tutorials</title>
-        <link type="images/x-icon" rel="icon" href="images/favicon-32x32.png">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link href="style/purchasing.css" rel="stylesheet">
-        <script src="script/tutorials.js" type="text/javascript"></script>
-    </head>
-    <body onload="sessionInv()">
-        <div class="container">
-            <header>
-                <div class="logo">
-                    <img src="images/MMS Sales and Distribution Ltd.png" alt="" class="header-logo">
-                </div>
-                <input type="checkbox" id="checky">
-                <label for="checky">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
-                        <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
-                      </svg>
-                </label>
-                <nav class="nav-bar">
-                    <ul>
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="" style="pointer-events: none">Tutorials</a>
-                            <ul>
-                                <li><a style="pointer-events: none">Receipts</a>
-                                    <ul>
-                                        <li><a href="#full_recipt" target="_self">Full receival on PO</a></li>
-                                        <li><a href="#parWBack" target="_self">Partial receival with Backorder</a></li>
-                                        <li><a href="#parRWOBack" target="_self">Partial receival without Backorder</a></li>
-                                    </ul>
-                                </li>
-                                <li><a style="pointer-events: none">Deliveries</a>
-                                    <ul>
-                                        <li><a href="#fulldelivery" target="_self">Full delivery on sales order</a></li>
-                                        <li><a href="#prtWdelivery" target="_self">Partial delivery with Backorder</a></li>
-                                        <li><a href="#parWOdelivery" target="_self">Partial delivery without Backorder</a></li>
-                                    </ul>
-                                </li>
-                                <li><a style="pointer-events: none">Returns</a>
-                                    <ul>
-                                        <li><a href="#cus_statements" target="_self">Print customer statement</a></li>
-                                        <li><a href="#reg_pay_in" target="_self">Register payment to invoce</a></li>
-                                    </ul>
-                                </li>
-                                <li><a href="#contracts" target="_self">Contracts</a></li>
-                                <li><a href="#int_trans" target="_self">Internal Transfers</a></li>
-                            </ul>
-                        </li>
-                        <li><a href="contactus.html">Contact Us</a></li>
-                        <li><a href="">About</a></li>
-                        <li><a href="login.html">Log out</a></li>
-                    </ul>
-                </nav>
-            </header>
+
+<head>
+    <title>Inventory Tutorials</title>
+    <link type="images/x-icon" rel="icon" href="images/favicon-32x32.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style/purchasing.css" rel="stylesheet">
+    <script src="script/tutorials.js" type="text/javascript"></script>
+</head>
+
+<body onload="sessionInv()">
+    <div class="container">
+        <header>
+            <div class="logo">
+                <img src="images/MMS Sales and Distribution Ltd.png" alt="" class="header-logo">
+            </div>
+            <input type="checkbox" id="checky">
+            <label for="checky">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-list"
+                    viewBox="0 0 16 16">
+                    <path fill-rule="evenodd"
+                        d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z" />
+                </svg>
+            </label>
+            <nav class="nav-bar">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="" style="pointer-events: none">Tutorials</a>
+                        <ul>
+                            <li><a style="pointer-events: none">Receipts</a>
+                                <ul>
+                                    <li><a href="#full_recipt" target="_self">Full receival on PO</a></li>
+                                    <li><a href="#parWBack" target="_self">Partial receival with Backorder</a></li>
+                                    <li><a href="#parRWOBack" target="_self">Partial receival without Backorder</a></li>
+                                </ul>
+                            </li>
+                            <li><a style="pointer-events: none">Deliveries</a>
+                                <ul>
+                                    <li><a href="#fulldelivery" target="_self">Full delivery on sales order</a></li>
+                                    <li><a href="#prtWdelivery" target="_self">Partial delivery with Backorder</a></li>
+                                    <li><a href="#parWOdelivery" target="_self">Partial delivery without Backorder</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li><a style="pointer-events: none">Returns</a>
+                                <ul>
+                                    <li><a href="#cus_statements" target="_self">Print customer statement</a></li>
+                                    <li><a href="#reg_pay_in" target="_self">Register payment to invoce</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#contracts" target="_self">Contracts</a></li>
+                            <li><a href="#int_trans" target="_self">Internal Transfers</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="contactus.html">Contact Us</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="login.html">Log out</a></li>
+                </ul>
+            </nav>
+        </header>
         <div class="content-container">
             <a href="" id="full_recipt" class="nav-links"></a>
             <h1>Inventory Tutorials</h1>
@@ -65,7 +70,8 @@
                 <img src="images/inventory/receipts/inv-fullreceipt2.png" alt="" class="tut-images">
                 <li>Search for the purchase order number the recieval is to be done on.</li>
                 <img src="images/inventory/receipts/inv-fullreceipt3.png" alt="" class="tut-images">
-                <li>Select the receival operation that corresponds with the purchase order number (From Vendor to Input).</li>
+                <li>Select the receival operation that corresponds with the purchase order number (From Vendor to
+                    Input).</li>
                 <img src="images/inventory/receipts/inv-fullreceipt4.png" alt="" class="tut-images">
                 <li>Click the set quanities tab.</li>
                 <img src="images/inventory/receipts/inv-fullreceipt5.png" alt="" class="tut-images">
@@ -79,7 +85,8 @@
                 <img src="images/inventory/receipts/inv-fullreceipt9.png" alt="" class="tut-images">
                 <li>Search for the purchase order number the recieval is to be done on.</li>
                 <img src="images/inventory/receipts/inv-fullreceipt10.png" alt="" class="tut-images">
-                <li>Select the quality control operation that corresponds with the PO number (From Input to Quality Control).</li>
+                <li>Select the quality control operation that corresponds with the PO number (From Input to Quality
+                    Control).</li>
                 <img src="images/inventory/receipts/inv-fullreceipt11.png" alt="" class="tut-images">
                 <li>Click the set quanities tab.</li>
                 <img src="images/inventory/receipts/inv-fullreceipt12.png" alt="" class="tut-images">
@@ -93,7 +100,8 @@
                 <img src="images/inventory/receipts/inv-fullreceipt16.png" alt="" class="tut-images">
                 <li>Search for the purchase order number the recieval is to be done on.</li>
                 <img src="images/inventory/receipts/inv-fullreceipt17.png" alt="" class="tut-images">
-                <li>Select the receival operation that corresponds with the purchase order number (From Quality Control to Stock).</li>
+                <li>Select the receival operation that corresponds with the purchase order number (From Quality Control
+                    to Stock).</li>
                 <img src="images/inventory/receipts/inv-fullreceipt18.png" alt="" class="tut-images">
                 <li>Click the set quanities tab.</li>
                 <img src="images/inventory/receipts/inv-fullreceipt19.png" alt="" class="tut-images">
@@ -110,7 +118,8 @@
                 <img src="images/inventory/receipts/inv-parRecBack2.png" alt="" class="tut-images">
                 <li>Search for the purchase order number the recieval is to be done on.</li>
                 <img src="images/inventory/receipts/inv-parRecBack3.png" alt="" class="tut-images">
-                <li>Select the receival transaction that corresponds with the purchase order number (From vendor to input).</li>
+                <li>Select the receival transaction that corresponds with the purchase order number (From vendor to
+                    input).</li>
                 <img src="images/inventory/receipts/inv-parRecBack4.png" alt="" class="tut-images">
                 <li>Click the list button next to the products.</li>
                 <img src="images/inventory/receipts/inv-parRecBack5.png" alt="" class="tut-images">
@@ -134,7 +143,8 @@
                 <img src="images/inventory/receipts/inv-parRecBack14.png" alt="" class="tut-images">
                 <li>Search for the purchase order number the recieval is to be done on.</li>
                 <img src="images/inventory/receipts/inv-parRecBack15.png" alt="" class="tut-images">
-                <li>Select the quality control operation that corresponds with the PO number (From Input to Quality Control).</li>
+                <li>Select the quality control operation that corresponds with the PO number (From Input to Quality
+                    Control).</li>
                 <img src="images/inventory/receipts/inv-parRecBack16.png" alt="" class="tut-images">
                 <li>Select the set quanities tab.</li>
                 <img src="images/inventory/receipts/inv-parRecBack17.png" alt="" class="tut-images">
@@ -150,7 +160,8 @@
                 <img src="images/inventory/receipts/inv-parRecBack22.png" alt="" class="tut-images">
                 <li>Search for the purchase order number the recieval is to be done on.</li>
                 <img src="images/inventory/receipts/inv-parRecBack23.png" alt="" class="tut-images">
-                <li>Select the receival operation that corresponds with the purchase order number (From Quality Control to Stock).</li>
+                <li>Select the receival operation that corresponds with the purchase order number (From Quality Control
+                    to Stock).</li>
                 <img src="images/inventory/receipts/inv-parRecBack24.png" alt="" class="tut-images">
                 <li>Open the set quanities tab.</li>
                 <img src="images/inventory/receipts/inv-parRecBack25.png" alt="" class="tut-images">
@@ -170,7 +181,8 @@
                 <img src="images/inventory/receipts/inv-NoBackRec2.png" alt="" class="tut-images">
                 <li>Search for the purchase order number the recieval is to be done on.</li>
                 <img src="images/inventory/receipts/inv-NoBackRec3.png" alt="" class="tut-images">
-                <li>Select the receival transaction that corresponds with the purchase order number (From vendor to input).</li>
+                <li>Select the receival transaction that corresponds with the purchase order number (From vendor to
+                    input).</li>
                 <img src="images/inventory/receipts/inv-NoBackRec4.png" alt="" class="tut-images">
                 <li>Click the list button next to the products.</li>
                 <img src="images/inventory/receipts/inv-NoBackRec5.png" alt="" class="tut-images">
@@ -194,7 +206,8 @@
                 <img src="images/inventory/receipts/inv-NoBackRec14.png" alt="" class="tut-images">
                 <li>Search for the purchase order number the recieval is to be done on.</li>
                 <img src="images/inventory/receipts/inv-NoBackRec15.png" alt="" class="tut-images">
-                <li>Select the quality control transfer that corresponds with the PO number (From Input to Quality Control).</li>
+                <li>Select the quality control transfer that corresponds with the PO number (From Input to Quality
+                    Control).</li>
                 <img src="images/inventory/receipts/inv-NoBackRec16.png" alt="" class="tut-images">
                 <li>Select the set quanities tab.</li>
                 <img src="images/inventory/receipts/inv-NoBackRec17.png" alt="" class="tut-images">
@@ -210,7 +223,8 @@
                 <img src="images/inventory/receipts/inv-NoBackRec22.png" alt="" class="tut-images">
                 <li>Search for the purchase order number the recieval is to be done on.</li>
                 <img src="images/inventory/receipts/inv-NoBackRec23.png" alt="" class="tut-images">
-                <li>Select the receival operation that corresponds with the purchase order number (From Quality Control to Stock).</li>
+                <li>Select the receival operation that corresponds with the purchase order number (From Quality Control
+                    to Stock).</li>
                 <img src="images/inventory/receipts/inv-NoBackRec24.png" alt="" class="tut-images">
                 <li>Open the set quanities tab.</li>
                 <img src="images/inventory/receipts/inv-NoBackRec25.png" alt="" class="tut-images">
@@ -301,7 +315,8 @@
                 <img src="images/inventory/deliveries/inv-del-parBack11.png" alt="" class="tut-images">
                 <li>Search for the sales order number delivery is to be done on.</li>
                 <img src="images/inventory/deliveries/inv-del-parBack12.png" alt="" class="tut-images">
-                <li>Select the packing operation that corresponds with sales order number (From Packing Zone to Output).</li>
+                <li>Select the packing operation that corresponds with sales order number (From Packing Zone to Output).
+                </li>
                 <img src="images/inventory/deliveries/inv-del-parBack13.png" alt="" class="tut-images">
                 <li>Click the set quanities tab.</li>
                 <img src="images/inventory/deliveries/inv-del-parBack14.png" alt="" class="tut-images">
@@ -317,7 +332,8 @@
                 <img src="images/inventory/deliveries/inv-del-parBack19.png" alt="" class="tut-images">
                 <li>Search for the sales order number delivery is to be done on.</li>
                 <img src="images/inventory/deliveries/inv-del-parBack20.png" alt="" class="tut-images">
-                <li>Select the delivery operation that corresponds with requested sales order (From output to customer)</li>
+                <li>Select the delivery operation that corresponds with requested sales order (From output to customer)
+                </li>
                 <img src="images/inventory/deliveries/inv-del-parBack21.png" alt="" class="tut-images">
                 <li>Click the set quanities tab.</li>
                 <img src="images/inventory/deliveries/inv-del-parBack22.png" alt="" class="tut-images">
@@ -361,7 +377,8 @@
                 <img src="images/inventory/deliveries/inv-del-parNoBack11.png" alt="" class="tut-images">
                 <li>Search for the sales order number delivery is to be done on.</li>
                 <img src="images/inventory/deliveries/inv-del-parNoBack12.png" alt="" class="tut-images">
-                <li>Select the packing operation that corresponds with sales order number (From Packing Zone to Output).</li>
+                <li>Select the packing operation that corresponds with sales order number (From Packing Zone to Output).
+                </li>
                 <img src="images/inventory/deliveries/inv-del-parNoBack13.png" alt="" class="tut-images">
                 <li>Click the set quanities tab.</li>
                 <img src="images/inventory/deliveries/inv-del-parNoBack14.png" alt="" class="tut-images">
@@ -377,7 +394,8 @@
                 <img src="images/inventory/deliveries/inv-del-parNoBack19.png" alt="" class="tut-images">
                 <li>Search for the sales order number delivery is to be done on.</li>
                 <img src="images/inventory/deliveries/inv-del-parNoBack20.png" alt="" class="tut-images">
-                <li>Select the delivery operation that corresponds with requested sales order (From output to customer)</li>
+                <li>Select the delivery operation that corresponds with requested sales order (From output to customer)
+                </li>
                 <img src="images/inventory/deliveries/inv-del-parNoBack21.png" alt="" class="tut-images">
                 <li>Click the set quanities tab.</li>
                 <img src="images/inventory/deliveries/inv-del-parNoBack22.png" alt="" class="tut-images">
@@ -469,7 +487,8 @@
                 <img src="images/inventory/inv-transfer5.png" alt="" class="tut-images">
                 <li>Add all the products that is to be transferred to the other location.</li>
                 <img src="images/inventory/inv-transfer6.png" alt="" class="tut-images">
-                <li>Select the contact and source location. The source location should be the stock location for your warehouse.</li>
+                <li>Select the contact and source location. The source location should be the stock location for your
+                    warehouse.</li>
                 <img src="images/inventory/inv-transfer7.png" alt="" class="tut-images">
                 <li>Click the save button.</li>
                 <img src="images/inventory/inv-transfer8.png" alt="" class="tut-images">
@@ -486,18 +505,22 @@
                 <li>Internal transfer has been completed successfully.</li>
             </ol>
         </div>
-
-        <div class="download">
-            <div class="d-icons">
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-download" viewBox="0 0 16 16">
-                    <path d="M.5 9.9a.5.5 0 0 1 .5.5v2.5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2.5a.5.5 0 0 1 1 0v2.5a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2v-2.5a.5.5 0 0 1 .5-.5z"/>
-                    <path d="M7.646 11.854a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V1.5a.5.5 0 0 0-1 0v8.793L5.354 8.146a.5.5 0 1 0-.708.708l3 3z"/>
-                  </svg>
+        <a href="tutorialdocs/Inventory.pdf" download class="choplawd">
+            <div class="download">
+                <div class="d-icons">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-download" viewBox="0 0 16 16">
+                        <path
+                            d="M.5 9.9a.5.5 0 0 1 .5.5v2.5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2.5a.5.5 0 0 1 1 0v2.5a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2v-2.5a.5.5 0 0 1 .5-.5z" />
+                        <path
+                            d="M7.646 11.854a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V1.5a.5.5 0 0 0-1 0v8.793L5.354 8.146a.5.5 0 1 0-.708.708l3 3z" />
+                    </svg>
+                </div>
+                <div class="d-text">
+                    <span id="spanAdd">Additional Manuals</span>
+                </div>
             </div>
-            <div class="d-text">
-                <span id="spanAdd">Additional Manuals</span>
-            </div>
-        </div>
+        </a>
         <div class="clear2"></div>
         <div class="footer">
             <div class="footer-text">
@@ -515,6 +538,6 @@
             </div>
         </div>
     </div>
-    </body>
-    
+</body>
+
 </html>

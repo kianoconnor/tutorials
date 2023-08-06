@@ -159,7 +159,7 @@ header .nav-bar ul li ul li ul{
     margin-left:auto;
     margin-right:auto;
     background-color:#93172F;
-    margin-bottom:20px;
+    margin-top:20px;
     text-align:center;
     align-items:center;
     height:fit-content;
@@ -202,6 +202,9 @@ header .nav-bar ul li ul li ul{
     clear:both;
 }
 
+.choplawd{
+    text-decoration: none;
+}
 @media(max-width:1400px){
     .nav-bar ul li a{
         font-size:14px;
