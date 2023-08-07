@@ -32,7 +32,7 @@ function sessionPurchasing(){
 
 function sessionSales(){
 
-    if(sessionStorage.getItem('test')!='active'){
+    if(sessionStorage.getItem('salessession')!='active'){
         window.location.href="login.html";
     }
 }
